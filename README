@@ -1,0 +1,12 @@
+This is a simple chat server written in ruby using EventMachine.
+
+Start it with:
+
+ruby server.rb
+
+...and you can connect to the server using telnet:
+
+telnet 127.0.0.1 6789
+
+Your messages are going to get distributed to all connected clients.
+
